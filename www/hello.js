@@ -11,10 +11,12 @@ document.getElementById('say_hello').onclick = function () {
       },
       function (res) {
         console.log(res);
+        var output = '';
         for (i = 0; i < res.length; i++) {
           console.log(res[i].room + ' - ' + res[i].text);
+          output = output + res[i].room + ' - ' + res[i].text + '\n';
         }
-        document.getElementById('cloudResponse').innerHTML = "<p>" + res + "</p>";
+        document.getElementById('cloudResponse').innerHTML = "<p>" + output + "</p>";
       },
       function (code, errorprops, params) {
         alert('An error occured: ' + code + ' : ' + errorprops);
