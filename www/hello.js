@@ -1,3 +1,11 @@
+$fh.init(function(){
+    // Initialisation is now complete, you can now make $fh.cloud request
+    console.log('success');
+  }, function(err){
+    // Init failed
+    console.log('failed');
+});
+
 document.getElementById('say_hello').onclick = function () {
   document.getElementById('cloudResponse').innerHTML = "<p>Calling Cloud.....</p>";
   $fh.cloud(
