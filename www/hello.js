@@ -26,7 +26,7 @@ $fh.cloud(
 */
 
 //        output = output + style + res[i].room + ' - ' + res[i].text + '</p>';
-        output = output + '<br><p style="background-color:red;>' + res[i].room + ' - ' + res[i].text + '</p>';
+        output = output + '<p style="background-color:red;>' + res[i].room + ' - ' + res[i].text + '</p>';
         console.log(output);
       }
       console.log(output);
