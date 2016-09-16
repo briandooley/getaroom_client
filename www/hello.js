@@ -1,8 +1,6 @@
 setInterval(timer, 10000);
 
-
-
-timer = function() {
+function timer(){
   $fh.cloud(
     {
       path: 'hello',
