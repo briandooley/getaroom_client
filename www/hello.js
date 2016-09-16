@@ -23,6 +23,7 @@ $fh.cloud(
         }
         output = output + style + res[i].room + ' - ' + res[i].text + '</p>';
       }
+      console.log(output);
       document.getElementById('cloudResponse').innerHTML = output;
     },
     function (code, errorprops, params) {
