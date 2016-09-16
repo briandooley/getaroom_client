@@ -18,7 +18,7 @@ $fh.cloud(
             style = '<p style="background-color:yellow;>';
             break;
         default:
-            default: style = '<p style="background-color:green;>';
+            style = '<p style="background-color:green;>';
 
         }
         output = output + res[i].room + ' - ' + res[i].text + '<p>';
