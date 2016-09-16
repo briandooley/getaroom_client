@@ -20,16 +20,16 @@ $fh.cloud(
             style = '<p style="background-color:#fad201;font-size:300%;font-family:Arial;">';
         }
 
-        test('hello');
+        console.log(formatRoom(res[i].room));
         output = output + style + res[i].room + ' - ' + res[i].text + '</p>';
         console.log(output);
         
-        function test(parm) {
-          console.log(parm);
-        }
-        
-        
       }
+
+      formatRoom = function (rm) {
+          return (rm.replace('wat-', ''));
+      };
+
       console.log(output);
       document.getElementById('cloudResponse').innerHTML = output;
     },
