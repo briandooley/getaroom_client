@@ -11,7 +11,7 @@ $fh.cloud(
       for (i = 0; i < res.length; i++) {
         switch(res[i].rank) {
         case 0:
-            style = '<p style="background-color:red;">';
+            style = '<p style="background-color:#fb122f;">';
             break;
         case 9999:
             style = '<p style="background-color:#27e833;">';
