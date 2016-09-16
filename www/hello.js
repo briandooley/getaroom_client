@@ -1,4 +1,4 @@
-setInterval(function, 60000);
+setInterval(timer, 10000);
 
 
 
