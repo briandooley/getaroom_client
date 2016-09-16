@@ -1,4 +1,9 @@
-$fh.cloud(
+setInterval(function, 60000);
+
+
+
+timer = function() {
+  $fh.cloud(
     {
       path: 'hello',
       method: 'GET',
@@ -32,6 +37,7 @@ $fh.cloud(
       alert('An error occured: ' + code + ' : ' + errorprops);
     }
 );
+};
 
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
@@ -40,4 +46,5 @@ String.prototype.capitalize = function() {
 formatRoom = function (rm) {
     return (rm.replace('wat-', '').capitalize());
 };
+
 
