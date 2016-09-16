@@ -12,7 +12,7 @@ document.getElementById('say_hello').onclick = function () {
       function (res) {
         console.log(res);
         for (i = 0; i < res.length; i++) {
-          console.log(res[i].text);
+          console.log(res[i].room + ' - ' + res[i].text);
         }
         document.getElementById('cloudResponse').innerHTML = "<p>" + res + "</p>";
       },
