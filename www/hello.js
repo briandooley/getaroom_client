@@ -17,7 +17,7 @@ $fh.cloud(
             style = '<p style="background-color:#27e833;">';
             break;
         default:
-            style = '<p style="background-color:#FFC200;">';
+            style = '<p style="background-color:#fad201;">';
 
         }
 
