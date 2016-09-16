@@ -6,7 +6,7 @@ $fh.cloud(
     },
     function (res) {
       console.log(res);
-      var output = '<p style="color:red;">';
+      var output = '<p style="background-color:powderblue;">';
       for (i = 0; i < res.length; i++) {
         console.log(res[i].room + ' - ' + res[i].text);
         output = output + res[i].room + ' - ' + res[i].text + '<p>';
