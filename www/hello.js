@@ -38,7 +38,7 @@ $fh.cloud(
 );
 
 formatRoom = function (rm) {
-    rm = rm.capitalise();
+    rm = rm.capitalize();
     return (rm.replace('wat-', ''));
 };
 
