@@ -3,6 +3,7 @@ document.getElementById('say_hello').onclick = function () {
   $fh.cloud(
       {
         path: 'hello',
+        method: 'GET',
         data: {
           hello: document.getElementById('hello_to').value
         }
