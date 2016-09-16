@@ -35,7 +35,7 @@ function timer(){
       alert('An error occured: ' + code + ' : ' + errorprops);
     }
 );
-};
+}
 
 String.prototype.capitalize = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
