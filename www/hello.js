@@ -4,10 +4,7 @@ document.getElementById('say_hello').onclick = function () {
       {
         path: 'hello',
         method: 'GET',
-        contentType: 'application/json',
-        data: {
-          hello: document.getElementById('hello_to').value
-        }
+        contentType: 'application/json'
       },
       function (res) {
         console.log(res);
