@@ -1,3 +1,4 @@
+timer();
 setInterval(timer, 60000);  // Call timer every 60 seconds.
 
 function timer(){
