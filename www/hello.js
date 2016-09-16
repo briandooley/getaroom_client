@@ -27,6 +27,7 @@ $fh.cloud(
 
 //        output = output + style + res[i].room + ' - ' + res[i].text + '</p>';
         output = '<p style="background-color:red;>' + output + res[i].room + ' - ' + res[i].text + '</p>';
+        console.log(output);
       }
       console.log(output);
       document.getElementById('cloudResponse').innerHTML = output;
