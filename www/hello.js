@@ -1,7 +1,3 @@
-String.prototype.capitalize = function() {
-    return this.charAt(0).toUpperCase() + this.slice(1);
-}
-
 $fh.cloud(
     {
       path: 'hello',
@@ -36,6 +32,10 @@ $fh.cloud(
       alert('An error occured: ' + code + ' : ' + errorprops);
     }
 );
+
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+};
 
 formatRoom = function (rm) {
     return (rm.replace('wat-', '').capitalize());
