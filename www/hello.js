@@ -9,7 +9,7 @@ $fh.cloud(
       var style = '';
       var output = '';
       for (i = 0; i < res.length; i++) {
-        console.log(res[i].room + ' - ' + res[i].text);
+        //console.log(res[i].room + ' - ' + res[i].text);
 
 /*
         switch(res[i].rank) {
