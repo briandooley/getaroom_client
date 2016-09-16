@@ -10,6 +10,7 @@ document.getElementById('say_hello').onclick = function () {
         }
       },
       function (res) {
+        console.log(res.msg);
         document.getElementById('cloudResponse').innerHTML = "<p>" + res.msg + "</p>";
       },
       function (code, errorprops, params) {
