@@ -23,12 +23,7 @@ $fh.cloud(
         console.log(formatRoom(res[i].room));
         output = output + style + res[i].room + ' - ' + res[i].text + '</p>';
         console.log(output);
-        
       }
-
-      formatRoom = function (rm) {
-          return (rm.replace('wat-', ''));
-      };
 
       console.log(output);
       document.getElementById('cloudResponse').innerHTML = output;
@@ -37,3 +32,8 @@ $fh.cloud(
       alert('An error occured: ' + code + ' : ' + errorprops);
     }
 );
+
+formatRoom = function (rm) {
+    return (rm.replace('wat-', ''));
+};
+
