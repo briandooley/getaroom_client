@@ -21,7 +21,7 @@ $fh.cloud(
         }
 
         console.log(formatRoom(res[i].room));
-        output = output + style + res[i].room + ' - ' + res[i].text + '</p>';
+        output = output + style + formatRoom(res[i].room) + ' - ' + res[i].text + '</p>';
         console.log(output);
       }
 
