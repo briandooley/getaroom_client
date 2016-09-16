@@ -7,7 +7,7 @@ $fh.cloud(
     function (res) {
       console.log(res);
       var style = '';
-      var output = '';
+      var output = '<br>';
       for (i = 0; i < res.length; i++) {
         //console.log(res[i].room + ' - ' + res[i].text);
 
